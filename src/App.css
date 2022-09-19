@@ -124,6 +124,7 @@ body{
   backdrop-filter: blur(10px);
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 2;
 }
 
@@ -287,6 +288,10 @@ input[type="date"]::-webkit-calendar-picker-indicator{
   form{
     width: 70%;
   
+  }
+
+  .formContainer{
+
   }
 
   .inputContainer{
@@ -704,6 +709,7 @@ button:hover {
   position: fixed;
   z-index: 2;
   top: 0;
+  left: 0;
 }
 
 .alertBox{
