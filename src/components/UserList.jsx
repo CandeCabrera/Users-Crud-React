@@ -47,7 +47,7 @@ const UserList = ({
               </div>
               <h3 className="firstName"> {user.first_name}</h3>
               </div>
-              <h3 className="lastName"><span className="tagDescription">Last name: </span>{user.last_name}</h3>
+              <h3 className="lastName"><span className="tagDescription"><i className="fa-solid fa-user"></i> </span>{user.last_name}</h3>
 
               <p className="password"><span className="tagDescription"><i className="fa-solid fa-lock"></i></span>{user.password}</p>
               <p className="birthdayDate"><span className="tagDescription"><i className="fa-solid fa-cake-candles"></i> </span>{user.birthday}</p>
